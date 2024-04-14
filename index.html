@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/icons8-check-96.png"
+      type="image/x-icon"
+    />
+    <title>Validação de Formulário com JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar Uma Conta</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome de usuário</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Entre com seu nome de usuário"
+          />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" placeholder="Digite seu e-mail" />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Digite sua senha" />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação da senha</label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Digite sua senha novamente"
+          />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>

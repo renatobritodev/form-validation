@@ -21,15 +21,18 @@ Este é um exemplo de como implementar um formulário com validação utilizando
 - Personalize as mensagens de erro e o estilo conforme o design da sua aplicação.
 
 ------------
-![Formulário Inicial](assets\img\initial_form.png)
+![Formulário Inicial](assets/img/initial_form.png)
+
 **Formulário inicial**
 
 ------------
-![Formulário Inicial](assets\img\error_form.png)
+![Formulário Inicial](assets/img/error_form.png)
+
 **Formulário erro**
 
 ------------
-![Formulário Inicial](assets\img\validated_form.png)
+![Formulário Inicial](assets/img/validated_form.png)
+
 **Formulário válidado**
 
 ### Feito com :heart: por: Renato Brito
